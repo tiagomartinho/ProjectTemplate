@@ -27,8 +27,8 @@
 		EA21CA541D86D332004E2092 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA21CA531D86D332004E2092 /* ViewController.swift */; };
 		EA21CA571D86D332004E2092 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA21CA551D86D332004E2092 /* Main.storyboard */; };
 		EA21CA591D86D332004E2092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA21CA581D86D332004E2092 /* Assets.xcassets */; };
-		EA21CA641D86D332004E2092 /* ProjectTemplate_tvOS_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA21CA631D86D332004E2092 /* ProjectTemplate_tvOS_AppTests.swift */; };
-		EA21CA6F1D86D332004E2092 /* ProjectTemplate_tvOS_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA21CA6E1D86D332004E2092 /* ProjectTemplate_tvOS_AppUITests.swift */; };
+		EA21CA641D86D332004E2092 /* ProjectTemplateAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA21CA631D86D332004E2092 /* ProjectTemplateAppTests.swift */; };
+		EA21CA6F1D86D332004E2092 /* ProjectTemplateAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA21CA6E1D86D332004E2092 /* ProjectTemplateAppUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,10 +134,10 @@
 		EA21CA581D86D332004E2092 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA21CA5A1D86D332004E2092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA21CA5F1D86D332004E2092 /* ProjectTemplate tvOS AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ProjectTemplate tvOS AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA21CA631D86D332004E2092 /* ProjectTemplate_tvOS_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTemplate_tvOS_AppTests.swift; sourceTree = "<group>"; };
+		EA21CA631D86D332004E2092 /* ProjectTemplateAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTemplateAppTests.swift; sourceTree = "<group>"; };
 		EA21CA651D86D332004E2092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA21CA6A1D86D332004E2092 /* ProjectTemplate tvOS AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ProjectTemplate tvOS AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA21CA6E1D86D332004E2092 /* ProjectTemplate_tvOS_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTemplate_tvOS_AppUITests.swift; sourceTree = "<group>"; };
+		EA21CA6E1D86D332004E2092 /* ProjectTemplateAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTemplateAppUITests.swift; sourceTree = "<group>"; };
 		EA21CA701D86D332004E2092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -197,14 +197,14 @@
 		EA21C9E21D86D1C3004E2092 = {
 			isa = PBXGroup;
 			children = (
-				EA21C9ED1D86D1C3004E2092 /* ProjectTemplate */,
-				EA21CA021D86D1C3004E2092 /* ProjectTemplateTests */,
-				EA21CA0D1D86D1C3004E2092 /* ProjectTemplateUITests */,
-				EA21CA171D86D1C4004E2092 /* ProjectTemplate WatchKit App */,
-				EA21CA261D86D1C4004E2092 /* ProjectTemplate WatchKit Extension */,
+				EA21C9ED1D86D1C3004E2092 /* ProjectTemplate iOS App */,
+				EA21CA021D86D1C3004E2092 /* ProjectTemplate iOS App Tests */,
+				EA21CA0D1D86D1C3004E2092 /* ProjectTemplate iOS App UI Tests */,
+				EA21CA171D86D1C4004E2092 /* ProjectTemplate watchOS App */,
+				EA21CA261D86D1C4004E2092 /* ProjectTemplate watchOS Extension */,
 				EA21CA501D86D332004E2092 /* ProjectTemplate tvOS App */,
-				EA21CA621D86D332004E2092 /* ProjectTemplate tvOS AppTests */,
-				EA21CA6D1D86D332004E2092 /* ProjectTemplate tvOS AppUITests */,
+				EA21CA621D86D332004E2092 /* ProjectTemplate tvOS App Tests */,
+				EA21CA6D1D86D332004E2092 /* ProjectTemplate tvOS App UI Tests */,
 				EA21C9EC1D86D1C3004E2092 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -224,50 +224,54 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EA21C9ED1D86D1C3004E2092 /* ProjectTemplate */ = {
+		EA21C9ED1D86D1C3004E2092 /* ProjectTemplate iOS App */ = {
 			isa = PBXGroup;
 			children = (
-				EA21C9EE1D86D1C3004E2092 /* AppDelegate.swift */,
 				EA21C9F01D86D1C3004E2092 /* ViewController.swift */,
 				EA21C9F21D86D1C3004E2092 /* Main.storyboard */,
 				EA21CA471D86D213004E2092 /* Supporting Files */,
 			);
+			name = "ProjectTemplate iOS App";
 			path = ProjectTemplate;
 			sourceTree = "<group>";
 		};
-		EA21CA021D86D1C3004E2092 /* ProjectTemplateTests */ = {
+		EA21CA021D86D1C3004E2092 /* ProjectTemplate iOS App Tests */ = {
 			isa = PBXGroup;
 			children = (
 				EA21CA031D86D1C3004E2092 /* ProjectTemplateTests.swift */,
 				EA21CA481D86D23E004E2092 /* Supporting Files */,
 			);
+			name = "ProjectTemplate iOS App Tests";
 			path = ProjectTemplateTests;
 			sourceTree = "<group>";
 		};
-		EA21CA0D1D86D1C3004E2092 /* ProjectTemplateUITests */ = {
+		EA21CA0D1D86D1C3004E2092 /* ProjectTemplate iOS App UI Tests */ = {
 			isa = PBXGroup;
 			children = (
 				EA21CA0E1D86D1C3004E2092 /* ProjectTemplateUITests.swift */,
 				EA21CA491D86D25D004E2092 /* Supporting Files */,
 			);
+			name = "ProjectTemplate iOS App UI Tests";
 			path = ProjectTemplateUITests;
 			sourceTree = "<group>";
 		};
-		EA21CA171D86D1C4004E2092 /* ProjectTemplate WatchKit App */ = {
+		EA21CA171D86D1C4004E2092 /* ProjectTemplate watchOS App */ = {
 			isa = PBXGroup;
 			children = (
 				EA21CA181D86D1C4004E2092 /* Interface.storyboard */,
 				EA21CA4A1D86D263004E2092 /* Supporting Files */,
 			);
+			name = "ProjectTemplate watchOS App";
 			path = "ProjectTemplate WatchKit App";
 			sourceTree = "<group>";
 		};
-		EA21CA261D86D1C4004E2092 /* ProjectTemplate WatchKit Extension */ = {
+		EA21CA261D86D1C4004E2092 /* ProjectTemplate watchOS Extension */ = {
 			isa = PBXGroup;
 			children = (
 				EA21CA291D86D1C4004E2092 /* InterfaceController.swift */,
 				EA21CA271D86D1C4004E2092 /* Supporting Files */,
 			);
+			name = "ProjectTemplate watchOS Extension";
 			path = "ProjectTemplate WatchKit Extension";
 			sourceTree = "<group>";
 		};
@@ -287,6 +291,7 @@
 		EA21CA471D86D213004E2092 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EA21C9EE1D86D1C3004E2092 /* AppDelegate.swift */,
 				EA21C9F51D86D1C3004E2092 /* Assets.xcassets */,
 				EA21C9F71D86D1C3004E2092 /* LaunchScreen.storyboard */,
 				EA21C9FA1D86D1C3004E2092 /* Info.plist */,
@@ -322,31 +327,57 @@
 		EA21CA501D86D332004E2092 /* ProjectTemplate tvOS App */ = {
 			isa = PBXGroup;
 			children = (
-				EA21CA511D86D332004E2092 /* AppDelegate.swift */,
 				EA21CA531D86D332004E2092 /* ViewController.swift */,
 				EA21CA551D86D332004E2092 /* Main.storyboard */,
-				EA21CA581D86D332004E2092 /* Assets.xcassets */,
-				EA21CA5A1D86D332004E2092 /* Info.plist */,
+				EA21CA7C1D86D3E7004E2092 /* Supporting Files */,
 			);
 			path = "ProjectTemplate tvOS App";
 			sourceTree = "<group>";
 		};
-		EA21CA621D86D332004E2092 /* ProjectTemplate tvOS AppTests */ = {
+		EA21CA621D86D332004E2092 /* ProjectTemplate tvOS App Tests */ = {
 			isa = PBXGroup;
 			children = (
-				EA21CA631D86D332004E2092 /* ProjectTemplate_tvOS_AppTests.swift */,
-				EA21CA651D86D332004E2092 /* Info.plist */,
+				EA21CA631D86D332004E2092 /* ProjectTemplateAppTests.swift */,
+				EA21CA7D1D86D3F9004E2092 /* Supporting Files */,
 			);
+			name = "ProjectTemplate tvOS App Tests";
 			path = "ProjectTemplate tvOS AppTests";
 			sourceTree = "<group>";
 		};
-		EA21CA6D1D86D332004E2092 /* ProjectTemplate tvOS AppUITests */ = {
+		EA21CA6D1D86D332004E2092 /* ProjectTemplate tvOS App UI Tests */ = {
 			isa = PBXGroup;
 			children = (
-				EA21CA6E1D86D332004E2092 /* ProjectTemplate_tvOS_AppUITests.swift */,
+				EA21CA6E1D86D332004E2092 /* ProjectTemplateAppUITests.swift */,
+				EA21CA7E1D86D414004E2092 /* Supporting Files */,
+			);
+			name = "ProjectTemplate tvOS App UI Tests";
+			path = "ProjectTemplate tvOS AppUITests";
+			sourceTree = "<group>";
+		};
+		EA21CA7C1D86D3E7004E2092 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA21CA511D86D332004E2092 /* AppDelegate.swift */,
+				EA21CA581D86D332004E2092 /* Assets.xcassets */,
+				EA21CA5A1D86D332004E2092 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA21CA7D1D86D3F9004E2092 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA21CA651D86D332004E2092 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA21CA7E1D86D414004E2092 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				EA21CA701D86D332004E2092 /* Info.plist */,
 			);
-			path = "ProjectTemplate tvOS AppUITests";
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,6 +391,7 @@
 				EA21C9E81D86D1C3004E2092 /* Frameworks */,
 				EA21C9E91D86D1C3004E2092 /* Resources */,
 				EA21CA3D1D86D1C4004E2092 /* Embed Watch Content */,
+				EA21CA7A1D86D3A2004E2092 /* Run SwiftLint Script */,
 			);
 			buildRules = (
 			);
@@ -431,6 +463,7 @@
 				EA21CA1E1D86D1C4004E2092 /* Sources */,
 				EA21CA1F1D86D1C4004E2092 /* Frameworks */,
 				EA21CA201D86D1C4004E2092 /* Resources */,
+				EA21CA7F1D86D5BA004E2092 /* Run SwiftLint Script */,
 			);
 			buildRules = (
 			);
@@ -448,6 +481,7 @@
 				EA21CA4B1D86D332004E2092 /* Sources */,
 				EA21CA4C1D86D332004E2092 /* Frameworks */,
 				EA21CA4D1D86D332004E2092 /* Resources */,
+				EA21CA7B1D86D3B5004E2092 /* Run SwiftLint Script */,
 			);
 			buildRules = (
 			);
@@ -642,6 +676,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EA21CA7A1D86D3A2004E2092 /* Run SwiftLint Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		EA21CA7B1D86D3B5004E2092 /* Run SwiftLint Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		EA21CA7F1D86D5BA004E2092 /* Run SwiftLint Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EA21C9E71D86D1C3004E2092 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -692,7 +771,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA21CA641D86D332004E2092 /* ProjectTemplate_tvOS_AppTests.swift in Sources */,
+				EA21CA641D86D332004E2092 /* ProjectTemplateAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -700,7 +779,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA21CA6F1D86D332004E2092 /* ProjectTemplate_tvOS_AppUITests.swift in Sources */,
+				EA21CA6F1D86D332004E2092 /* ProjectTemplateAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
