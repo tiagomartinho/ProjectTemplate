@@ -1,0 +1,6 @@
+framework module Pods_ProjectTemplate_tvOS_AppUITests {
+  umbrella header "Pods-ProjectTemplate tvOS AppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

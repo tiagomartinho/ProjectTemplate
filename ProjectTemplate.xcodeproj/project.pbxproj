@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07F9F47BC2BD0E91BF405C32 /* Pods_ProjectTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41217D7359F0D2C67E31797A /* Pods_ProjectTemplate.framework */; };
+		0FCA559949AB9CCAA4575271 /* Pods_ProjectTemplateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B6B9081DA7B784D8DB27BC /* Pods_ProjectTemplateTests.framework */; };
+		3DEA80419A08970A489D8695 /* Pods_ProjectTemplate_tvOS_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9989D6B50BE747A34B4E422D /* Pods_ProjectTemplate_tvOS_App.framework */; };
+		41E8EE2FC4DDD865F5C5A7DC /* Pods_ProjectTemplateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C385359079192D1B874FC5D /* Pods_ProjectTemplateUITests.framework */; };
+		6500336D4F8FF456F02054F0 /* Pods_ProjectTemplate_tvOS_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9A646BF1ED24260F4CA4C5 /* Pods_ProjectTemplate_tvOS_AppUITests.framework */; };
+		72830B1D74766AD0C70F1AAA /* Pods_ProjectTemplate_tvOS_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F75C6D69FB601CEBB22ECD9 /* Pods_ProjectTemplate_tvOS_AppTests.framework */; };
 		EA21C9EF1D86D1C3004E2092 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA21C9EE1D86D1C3004E2092 /* AppDelegate.swift */; };
 		EA21C9F11D86D1C3004E2092 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA21C9F01D86D1C3004E2092 /* ViewController.swift */; };
 		EA21C9F41D86D1C3004E2092 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA21C9F21D86D1C3004E2092 /* Main.storyboard */; };
@@ -102,6 +108,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		05E3C3A6288DC3BD498E0F34 /* Pods-ProjectTemplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplateTests/Pods-ProjectTemplateTests.release.xcconfig"; sourceTree = "<group>"; };
+		127875CE68C249180971D955 /* Pods-ProjectTemplate tvOS AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplate tvOS AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplate tvOS AppTests/Pods-ProjectTemplate tvOS AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D464EE7081A3CF84996E150 /* Pods-ProjectTemplate tvOS AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplate tvOS AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplate tvOS AppTests/Pods-ProjectTemplate tvOS AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		2C385359079192D1B874FC5D /* Pods_ProjectTemplateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectTemplateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41217D7359F0D2C67E31797A /* Pods_ProjectTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BFFBDC43E9AD314DEB287E0 /* Pods-ProjectTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplate/Pods-ProjectTemplate.release.xcconfig"; sourceTree = "<group>"; };
+		4EAE00050777E5733DC0BF0A /* Pods-ProjectTemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplateTests/Pods-ProjectTemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		593B1CEBC76407FAEE171440 /* Pods_ProjectTemplate_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectTemplate_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F75C6D69FB601CEBB22ECD9 /* Pods_ProjectTemplate_tvOS_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectTemplate_tvOS_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9989D6B50BE747A34B4E422D /* Pods_ProjectTemplate_tvOS_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectTemplate_tvOS_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D9A646BF1ED24260F4CA4C5 /* Pods_ProjectTemplate_tvOS_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectTemplate_tvOS_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC57FFF03B50D55C777C1858 /* Pods-ProjectTemplateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplateUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplateUITests/Pods-ProjectTemplateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B383D0AD0949BAE6870A24EA /* Pods-ProjectTemplate tvOS AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplate tvOS AppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplate tvOS AppUITests/Pods-ProjectTemplate tvOS AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BEAE7F76AC1FB3844A9B0763 /* Pods-ProjectTemplate tvOS App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplate tvOS App.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplate tvOS App/Pods-ProjectTemplate tvOS App.release.xcconfig"; sourceTree = "<group>"; };
+		D3D0CE2B57D54B0E63C0EDA7 /* Pods_ProjectTemplate_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectTemplate_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D591B3021DD954A49D8F5239 /* Pods-ProjectTemplate tvOS App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplate tvOS App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplate tvOS App/Pods-ProjectTemplate tvOS App.debug.xcconfig"; sourceTree = "<group>"; };
 		EA21C9EB1D86D1C3004E2092 /* ProjectTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA21C9EE1D86D1C3004E2092 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA21C9F01D86D1C3004E2092 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -139,13 +161,25 @@
 		EA21CA6A1D86D332004E2092 /* ProjectTemplate tvOS AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ProjectTemplate tvOS AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA21CA6E1D86D332004E2092 /* ProjectTemplateAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTemplateAppUITests.swift; sourceTree = "<group>"; };
 		EA21CA701D86D332004E2092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF358FC7E35EC53298C0F792 /* Pods-ProjectTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplate/Pods-ProjectTemplate.debug.xcconfig"; sourceTree = "<group>"; };
+		F6B6B9081DA7B784D8DB27BC /* Pods_ProjectTemplateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectTemplateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB127376B089F4DB50326A9B /* Pods-ProjectTemplate tvOS AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplate tvOS AppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplate tvOS AppUITests/Pods-ProjectTemplate tvOS AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FE0507619911D777BFFE912F /* Pods-ProjectTemplateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplateUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplateUITests/Pods-ProjectTemplateUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8A6E9C2846673A4CFC21600E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EA21C9E81D86D1C3004E2092 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07F9F47BC2BD0E91BF405C32 /* Pods_ProjectTemplate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +187,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FCA559949AB9CCAA4575271 /* Pods_ProjectTemplateTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +195,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41E8EE2FC4DDD865F5C5A7DC /* Pods_ProjectTemplateUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +210,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DEA80419A08970A489D8695 /* Pods_ProjectTemplate_tvOS_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +218,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72830B1D74766AD0C70F1AAA /* Pods_ProjectTemplate_tvOS_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,12 +226,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6500336D4F8FF456F02054F0 /* Pods_ProjectTemplate_tvOS_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B896A6F29214A4BE7390532 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF358FC7E35EC53298C0F792 /* Pods-ProjectTemplate.debug.xcconfig */,
+				4BFFBDC43E9AD314DEB287E0 /* Pods-ProjectTemplate.release.xcconfig */,
+				D591B3021DD954A49D8F5239 /* Pods-ProjectTemplate tvOS App.debug.xcconfig */,
+				BEAE7F76AC1FB3844A9B0763 /* Pods-ProjectTemplate tvOS App.release.xcconfig */,
+				127875CE68C249180971D955 /* Pods-ProjectTemplate tvOS AppTests.debug.xcconfig */,
+				1D464EE7081A3CF84996E150 /* Pods-ProjectTemplate tvOS AppTests.release.xcconfig */,
+				B383D0AD0949BAE6870A24EA /* Pods-ProjectTemplate tvOS AppUITests.debug.xcconfig */,
+				FB127376B089F4DB50326A9B /* Pods-ProjectTemplate tvOS AppUITests.release.xcconfig */,
+				4EAE00050777E5733DC0BF0A /* Pods-ProjectTemplateTests.debug.xcconfig */,
+				05E3C3A6288DC3BD498E0F34 /* Pods-ProjectTemplateTests.release.xcconfig */,
+				AC57FFF03B50D55C777C1858 /* Pods-ProjectTemplateUITests.debug.xcconfig */,
+				FE0507619911D777BFFE912F /* Pods-ProjectTemplateUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D3DDCDBB01CAEBEFDAB6E115 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41217D7359F0D2C67E31797A /* Pods_ProjectTemplate.framework */,
+				593B1CEBC76407FAEE171440 /* Pods_ProjectTemplate_WatchKit_App.framework */,
+				D3D0CE2B57D54B0E63C0EDA7 /* Pods_ProjectTemplate_WatchKit_Extension.framework */,
+				9989D6B50BE747A34B4E422D /* Pods_ProjectTemplate_tvOS_App.framework */,
+				8F75C6D69FB601CEBB22ECD9 /* Pods_ProjectTemplate_tvOS_AppTests.framework */,
+				9D9A646BF1ED24260F4CA4C5 /* Pods_ProjectTemplate_tvOS_AppUITests.framework */,
+				F6B6B9081DA7B784D8DB27BC /* Pods_ProjectTemplateTests.framework */,
+				2C385359079192D1B874FC5D /* Pods_ProjectTemplateUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EA21C9E21D86D1C3004E2092 = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +279,8 @@
 				EA21CA621D86D332004E2092 /* ProjectTemplate tvOS App Tests */,
 				EA21CA6D1D86D332004E2092 /* ProjectTemplate tvOS App UI Tests */,
 				EA21C9EC1D86D1C3004E2092 /* Products */,
+				7B896A6F29214A4BE7390532 /* Pods */,
+				D3DDCDBB01CAEBEFDAB6E115 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -387,11 +462,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA21CA3E1D86D1C4004E2092 /* Build configuration list for PBXNativeTarget "ProjectTemplate" */;
 			buildPhases = (
+				D8401B9C6331DF711698897B /* 📦 Check Pods Manifest.lock */,
 				EA21C9E71D86D1C3004E2092 /* Sources */,
 				EA21C9E81D86D1C3004E2092 /* Frameworks */,
 				EA21C9E91D86D1C3004E2092 /* Resources */,
 				EA21CA3D1D86D1C4004E2092 /* Embed Watch Content */,
 				EA21CA7A1D86D3A2004E2092 /* Run SwiftLint Script */,
+				A43F74635454A0674CFE88F5 /* 📦 Embed Pods Frameworks */,
+				37431A9A4854EA13FA0F62A1 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -407,9 +485,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA21CA411D86D1C4004E2092 /* Build configuration list for PBXNativeTarget "ProjectTemplateTests" */;
 			buildPhases = (
+				5C8498C859066F6439BDAD15 /* 📦 Check Pods Manifest.lock */,
 				EA21C9FB1D86D1C3004E2092 /* Sources */,
 				EA21C9FC1D86D1C3004E2092 /* Frameworks */,
 				EA21C9FD1D86D1C3004E2092 /* Resources */,
+				01D92ADA606D7CB11ABD91B9 /* 📦 Embed Pods Frameworks */,
+				4B49B95533029495C3A19C25 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -425,9 +506,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA21CA441D86D1C4004E2092 /* Build configuration list for PBXNativeTarget "ProjectTemplateUITests" */;
 			buildPhases = (
+				849FAEC9EC68C78328C19BED /* 📦 Check Pods Manifest.lock */,
 				EA21CA061D86D1C3004E2092 /* Sources */,
 				EA21CA071D86D1C3004E2092 /* Frameworks */,
 				EA21CA081D86D1C3004E2092 /* Resources */,
+				792AC62A1D8CFCA8E9D1AB0C /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -445,6 +528,7 @@
 			buildPhases = (
 				EA21CA111D86D1C4004E2092 /* Resources */,
 				EA21CA391D86D1C4004E2092 /* Embed App Extensions */,
+				8A6E9C2846673A4CFC21600E /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -478,10 +562,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA21CA711D86D332004E2092 /* Build configuration list for PBXNativeTarget "ProjectTemplate tvOS App" */;
 			buildPhases = (
+				EEE4D0C61FA24D3D849CF017 /* 📦 Check Pods Manifest.lock */,
 				EA21CA4B1D86D332004E2092 /* Sources */,
 				EA21CA4C1D86D332004E2092 /* Frameworks */,
 				EA21CA4D1D86D332004E2092 /* Resources */,
 				EA21CA7B1D86D3B5004E2092 /* Run SwiftLint Script */,
+				CC3A627E6323EE34C08347B2 /* 📦 Embed Pods Frameworks */,
+				6B7728CFFF8A9D79D6E829D3 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -496,9 +583,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA21CA741D86D332004E2092 /* Build configuration list for PBXNativeTarget "ProjectTemplate tvOS AppTests" */;
 			buildPhases = (
+				1D45BBAB0893E1CA4B81EC3C /* 📦 Check Pods Manifest.lock */,
 				EA21CA5B1D86D332004E2092 /* Sources */,
 				EA21CA5C1D86D332004E2092 /* Frameworks */,
 				EA21CA5D1D86D332004E2092 /* Resources */,
+				85DFB9D839DA63590065CC0C /* 📦 Embed Pods Frameworks */,
+				97D633F01E15983444324494 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -514,9 +604,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA21CA771D86D332004E2092 /* Build configuration list for PBXNativeTarget "ProjectTemplate tvOS AppUITests" */;
 			buildPhases = (
+				1BCE107A5E64C15388401FD2 /* 📦 Check Pods Manifest.lock */,
 				EA21CA661D86D332004E2092 /* Sources */,
 				EA21CA671D86D332004E2092 /* Frameworks */,
 				EA21CA681D86D332004E2092 /* Resources */,
+				31848DC4E89D99AF1854E5BF /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -677,6 +769,231 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		01D92ADA606D7CB11ABD91B9 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectTemplateTests/Pods-ProjectTemplateTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BCE107A5E64C15388401FD2 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1D45BBAB0893E1CA4B81EC3C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		31848DC4E89D99AF1854E5BF /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectTemplate tvOS AppUITests/Pods-ProjectTemplate tvOS AppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37431A9A4854EA13FA0F62A1 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectTemplate/Pods-ProjectTemplate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B49B95533029495C3A19C25 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectTemplateTests/Pods-ProjectTemplateTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C8498C859066F6439BDAD15 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B7728CFFF8A9D79D6E829D3 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectTemplate tvOS App/Pods-ProjectTemplate tvOS App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		792AC62A1D8CFCA8E9D1AB0C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectTemplateUITests/Pods-ProjectTemplateUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		849FAEC9EC68C78328C19BED /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85DFB9D839DA63590065CC0C /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectTemplate tvOS AppTests/Pods-ProjectTemplate tvOS AppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97D633F01E15983444324494 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectTemplate tvOS AppTests/Pods-ProjectTemplate tvOS AppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A43F74635454A0674CFE88F5 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectTemplate/Pods-ProjectTemplate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC3A627E6323EE34C08347B2 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectTemplate tvOS App/Pods-ProjectTemplate tvOS App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8401B9C6331DF711698897B /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		EA21CA7A1D86D3A2004E2092 /* Run SwiftLint Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -718,6 +1035,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		EEE4D0C61FA24D3D849CF017 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1019,6 +1351,7 @@
 		};
 		EA21CA3F1D86D1C4004E2092 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF358FC7E35EC53298C0F792 /* Pods-ProjectTemplate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4C34FT6ABU;
@@ -1032,6 +1365,7 @@
 		};
 		EA21CA401D86D1C4004E2092 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BFFBDC43E9AD314DEB287E0 /* Pods-ProjectTemplate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4C34FT6ABU;
@@ -1045,6 +1379,7 @@
 		};
 		EA21CA421D86D1C4004E2092 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EAE00050777E5733DC0BF0A /* Pods-ProjectTemplateTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1060,6 +1395,7 @@
 		};
 		EA21CA431D86D1C4004E2092 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05E3C3A6288DC3BD498E0F34 /* Pods-ProjectTemplateTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1075,6 +1411,7 @@
 		};
 		EA21CA451D86D1C4004E2092 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC57FFF03B50D55C777C1858 /* Pods-ProjectTemplateUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4C34FT6ABU;
@@ -1089,6 +1426,7 @@
 		};
 		EA21CA461D86D1C4004E2092 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE0507619911D777BFFE912F /* Pods-ProjectTemplateUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4C34FT6ABU;
@@ -1103,6 +1441,7 @@
 		};
 		EA21CA721D86D332004E2092 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D591B3021DD954A49D8F5239 /* Pods-ProjectTemplate tvOS App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1120,6 +1459,7 @@
 		};
 		EA21CA731D86D332004E2092 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEAE7F76AC1FB3844A9B0763 /* Pods-ProjectTemplate tvOS App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1137,6 +1477,7 @@
 		};
 		EA21CA751D86D332004E2092 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 127875CE68C249180971D955 /* Pods-ProjectTemplate tvOS AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1154,6 +1495,7 @@
 		};
 		EA21CA761D86D332004E2092 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D464EE7081A3CF84996E150 /* Pods-ProjectTemplate tvOS AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1171,6 +1513,7 @@
 		};
 		EA21CA781D86D332004E2092 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B383D0AD0949BAE6870A24EA /* Pods-ProjectTemplate tvOS AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4C34FT6ABU;
@@ -1187,6 +1530,7 @@
 		};
 		EA21CA791D86D332004E2092 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB127376B089F4DB50326A9B /* Pods-ProjectTemplate tvOS AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4C34FT6ABU;
@@ -1220,6 +1564,7 @@
 				EA21CA381D86D1C4004E2092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA21CA3A1D86D1C4004E2092 /* Build configuration list for PBXNativeTarget "ProjectTemplate WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -1228,6 +1573,7 @@
 				EA21CA3C1D86D1C4004E2092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA21CA3E1D86D1C4004E2092 /* Build configuration list for PBXNativeTarget "ProjectTemplate" */ = {
 			isa = XCConfigurationList;
@@ -1236,6 +1582,7 @@
 				EA21CA401D86D1C4004E2092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA21CA411D86D1C4004E2092 /* Build configuration list for PBXNativeTarget "ProjectTemplateTests" */ = {
 			isa = XCConfigurationList;
@@ -1244,6 +1591,7 @@
 				EA21CA431D86D1C4004E2092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA21CA441D86D1C4004E2092 /* Build configuration list for PBXNativeTarget "ProjectTemplateUITests" */ = {
 			isa = XCConfigurationList;
@@ -1252,6 +1600,7 @@
 				EA21CA461D86D1C4004E2092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA21CA711D86D332004E2092 /* Build configuration list for PBXNativeTarget "ProjectTemplate tvOS App" */ = {
 			isa = XCConfigurationList;
@@ -1260,6 +1609,7 @@
 				EA21CA731D86D332004E2092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA21CA741D86D332004E2092 /* Build configuration list for PBXNativeTarget "ProjectTemplate tvOS AppTests" */ = {
 			isa = XCConfigurationList;
@@ -1268,6 +1618,7 @@
 				EA21CA761D86D332004E2092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA21CA771D86D332004E2092 /* Build configuration list for PBXNativeTarget "ProjectTemplate tvOS AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -1276,6 +1627,7 @@
 				EA21CA791D86D332004E2092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module Pods_ProjectTemplate_tvOS_App {
+  umbrella header "Pods-ProjectTemplate tvOS App-umbrella.h"
+
+  export *
+  module * { export * }
+}
