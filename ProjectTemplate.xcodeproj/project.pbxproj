@@ -23,6 +23,12 @@
 		EA21CA2E1D86D1C4004E2092 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA21CA2D1D86D1C4004E2092 /* NotificationController.swift */; };
 		EA21CA301D86D1C4004E2092 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA21CA2F1D86D1C4004E2092 /* ComplicationController.swift */; };
 		EA21CA321D86D1C4004E2092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA21CA311D86D1C4004E2092 /* Assets.xcassets */; };
+		EA21CA521D86D332004E2092 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA21CA511D86D332004E2092 /* AppDelegate.swift */; };
+		EA21CA541D86D332004E2092 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA21CA531D86D332004E2092 /* ViewController.swift */; };
+		EA21CA571D86D332004E2092 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA21CA551D86D332004E2092 /* Main.storyboard */; };
+		EA21CA591D86D332004E2092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA21CA581D86D332004E2092 /* Assets.xcassets */; };
+		EA21CA641D86D332004E2092 /* ProjectTemplate_tvOS_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA21CA631D86D332004E2092 /* ProjectTemplate_tvOS_AppTests.swift */; };
+		EA21CA6F1D86D332004E2092 /* ProjectTemplate_tvOS_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA21CA6E1D86D332004E2092 /* ProjectTemplate_tvOS_AppUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = EA21CA211D86D1C4004E2092;
 			remoteInfo = "ProjectTemplate WatchKit Extension";
+		};
+		EA21CA601D86D332004E2092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA21C9E31D86D1C3004E2092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA21CA4E1D86D332004E2092;
+			remoteInfo = "ProjectTemplate tvOS App";
+		};
+		EA21CA6B1D86D332004E2092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA21C9E31D86D1C3004E2092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA21CA4E1D86D332004E2092;
+			remoteInfo = "ProjectTemplate tvOS App";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -107,6 +127,18 @@
 		EA21CA2F1D86D1C4004E2092 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		EA21CA311D86D1C4004E2092 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA21CA331D86D1C4004E2092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA21CA4F1D86D332004E2092 /* ProjectTemplate tvOS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ProjectTemplate tvOS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA21CA511D86D332004E2092 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA21CA531D86D332004E2092 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA21CA561D86D332004E2092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA21CA581D86D332004E2092 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA21CA5A1D86D332004E2092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA21CA5F1D86D332004E2092 /* ProjectTemplate tvOS AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ProjectTemplate tvOS AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA21CA631D86D332004E2092 /* ProjectTemplate_tvOS_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTemplate_tvOS_AppTests.swift; sourceTree = "<group>"; };
+		EA21CA651D86D332004E2092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA21CA6A1D86D332004E2092 /* ProjectTemplate tvOS AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ProjectTemplate tvOS AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA21CA6E1D86D332004E2092 /* ProjectTemplate_tvOS_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTemplate_tvOS_AppUITests.swift; sourceTree = "<group>"; };
+		EA21CA701D86D332004E2092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +170,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EA21CA4C1D86D332004E2092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA21CA5C1D86D332004E2092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA21CA671D86D332004E2092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -149,6 +202,9 @@
 				EA21CA0D1D86D1C3004E2092 /* ProjectTemplateUITests */,
 				EA21CA171D86D1C4004E2092 /* ProjectTemplate WatchKit App */,
 				EA21CA261D86D1C4004E2092 /* ProjectTemplate WatchKit Extension */,
+				EA21CA501D86D332004E2092 /* ProjectTemplate tvOS App */,
+				EA21CA621D86D332004E2092 /* ProjectTemplate tvOS AppTests */,
+				EA21CA6D1D86D332004E2092 /* ProjectTemplate tvOS AppUITests */,
 				EA21C9EC1D86D1C3004E2092 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -161,6 +217,9 @@
 				EA21CA0A1D86D1C3004E2092 /* ProjectTemplateUITests.xctest */,
 				EA21CA131D86D1C4004E2092 /* ProjectTemplate WatchKit App.app */,
 				EA21CA221D86D1C4004E2092 /* ProjectTemplate WatchKit Extension.appex */,
+				EA21CA4F1D86D332004E2092 /* ProjectTemplate tvOS App.app */,
+				EA21CA5F1D86D332004E2092 /* ProjectTemplate tvOS AppTests.xctest */,
+				EA21CA6A1D86D332004E2092 /* ProjectTemplate tvOS AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,9 +230,7 @@
 				EA21C9EE1D86D1C3004E2092 /* AppDelegate.swift */,
 				EA21C9F01D86D1C3004E2092 /* ViewController.swift */,
 				EA21C9F21D86D1C3004E2092 /* Main.storyboard */,
-				EA21C9F51D86D1C3004E2092 /* Assets.xcassets */,
-				EA21C9F71D86D1C3004E2092 /* LaunchScreen.storyboard */,
-				EA21C9FA1D86D1C3004E2092 /* Info.plist */,
+				EA21CA471D86D213004E2092 /* Supporting Files */,
 			);
 			path = ProjectTemplate;
 			sourceTree = "<group>";
@@ -182,7 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				EA21CA031D86D1C3004E2092 /* ProjectTemplateTests.swift */,
-				EA21CA051D86D1C3004E2092 /* Info.plist */,
+				EA21CA481D86D23E004E2092 /* Supporting Files */,
 			);
 			path = ProjectTemplateTests;
 			sourceTree = "<group>";
@@ -191,7 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				EA21CA0E1D86D1C3004E2092 /* ProjectTemplateUITests.swift */,
-				EA21CA101D86D1C3004E2092 /* Info.plist */,
+				EA21CA491D86D25D004E2092 /* Supporting Files */,
 			);
 			path = ProjectTemplateUITests;
 			sourceTree = "<group>";
@@ -200,8 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				EA21CA181D86D1C4004E2092 /* Interface.storyboard */,
-				EA21CA1B1D86D1C4004E2092 /* Assets.xcassets */,
-				EA21CA1D1D86D1C4004E2092 /* Info.plist */,
+				EA21CA4A1D86D263004E2092 /* Supporting Files */,
 			);
 			path = "ProjectTemplate WatchKit App";
 			sourceTree = "<group>";
@@ -210,11 +266,6 @@
 			isa = PBXGroup;
 			children = (
 				EA21CA291D86D1C4004E2092 /* InterfaceController.swift */,
-				EA21CA2B1D86D1C4004E2092 /* ExtensionDelegate.swift */,
-				EA21CA2D1D86D1C4004E2092 /* NotificationController.swift */,
-				EA21CA2F1D86D1C4004E2092 /* ComplicationController.swift */,
-				EA21CA311D86D1C4004E2092 /* Assets.xcassets */,
-				EA21CA331D86D1C4004E2092 /* Info.plist */,
 				EA21CA271D86D1C4004E2092 /* Supporting Files */,
 			);
 			path = "ProjectTemplate WatchKit Extension";
@@ -223,9 +274,79 @@
 		EA21CA271D86D1C4004E2092 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EA21CA2B1D86D1C4004E2092 /* ExtensionDelegate.swift */,
+				EA21CA2D1D86D1C4004E2092 /* NotificationController.swift */,
+				EA21CA2F1D86D1C4004E2092 /* ComplicationController.swift */,
+				EA21CA311D86D1C4004E2092 /* Assets.xcassets */,
+				EA21CA331D86D1C4004E2092 /* Info.plist */,
 				EA21CA281D86D1C4004E2092 /* PushNotificationPayload.apns */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA21CA471D86D213004E2092 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA21C9F51D86D1C3004E2092 /* Assets.xcassets */,
+				EA21C9F71D86D1C3004E2092 /* LaunchScreen.storyboard */,
+				EA21C9FA1D86D1C3004E2092 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA21CA481D86D23E004E2092 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA21CA051D86D1C3004E2092 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA21CA491D86D25D004E2092 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA21CA101D86D1C3004E2092 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA21CA4A1D86D263004E2092 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA21CA1B1D86D1C4004E2092 /* Assets.xcassets */,
+				EA21CA1D1D86D1C4004E2092 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA21CA501D86D332004E2092 /* ProjectTemplate tvOS App */ = {
+			isa = PBXGroup;
+			children = (
+				EA21CA511D86D332004E2092 /* AppDelegate.swift */,
+				EA21CA531D86D332004E2092 /* ViewController.swift */,
+				EA21CA551D86D332004E2092 /* Main.storyboard */,
+				EA21CA581D86D332004E2092 /* Assets.xcassets */,
+				EA21CA5A1D86D332004E2092 /* Info.plist */,
+			);
+			path = "ProjectTemplate tvOS App";
+			sourceTree = "<group>";
+		};
+		EA21CA621D86D332004E2092 /* ProjectTemplate tvOS AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA21CA631D86D332004E2092 /* ProjectTemplate_tvOS_AppTests.swift */,
+				EA21CA651D86D332004E2092 /* Info.plist */,
+			);
+			path = "ProjectTemplate tvOS AppTests";
+			sourceTree = "<group>";
+		};
+		EA21CA6D1D86D332004E2092 /* ProjectTemplate tvOS AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA21CA6E1D86D332004E2092 /* ProjectTemplate_tvOS_AppUITests.swift */,
+				EA21CA701D86D332004E2092 /* Info.plist */,
+			);
+			path = "ProjectTemplate tvOS AppUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,6 +441,59 @@
 			productReference = EA21CA221D86D1C4004E2092 /* ProjectTemplate WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
+		EA21CA4E1D86D332004E2092 /* ProjectTemplate tvOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA21CA711D86D332004E2092 /* Build configuration list for PBXNativeTarget "ProjectTemplate tvOS App" */;
+			buildPhases = (
+				EA21CA4B1D86D332004E2092 /* Sources */,
+				EA21CA4C1D86D332004E2092 /* Frameworks */,
+				EA21CA4D1D86D332004E2092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ProjectTemplate tvOS App";
+			productName = "ProjectTemplate tvOS App";
+			productReference = EA21CA4F1D86D332004E2092 /* ProjectTemplate tvOS App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA21CA5E1D86D332004E2092 /* ProjectTemplate tvOS AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA21CA741D86D332004E2092 /* Build configuration list for PBXNativeTarget "ProjectTemplate tvOS AppTests" */;
+			buildPhases = (
+				EA21CA5B1D86D332004E2092 /* Sources */,
+				EA21CA5C1D86D332004E2092 /* Frameworks */,
+				EA21CA5D1D86D332004E2092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA21CA611D86D332004E2092 /* PBXTargetDependency */,
+			);
+			name = "ProjectTemplate tvOS AppTests";
+			productName = "ProjectTemplate tvOS AppTests";
+			productReference = EA21CA5F1D86D332004E2092 /* ProjectTemplate tvOS AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA21CA691D86D332004E2092 /* ProjectTemplate tvOS AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA21CA771D86D332004E2092 /* Build configuration list for PBXNativeTarget "ProjectTemplate tvOS AppUITests" */;
+			buildPhases = (
+				EA21CA661D86D332004E2092 /* Sources */,
+				EA21CA671D86D332004E2092 /* Frameworks */,
+				EA21CA681D86D332004E2092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA21CA6C1D86D332004E2092 /* PBXTargetDependency */,
+			);
+			name = "ProjectTemplate tvOS AppUITests";
+			productName = "ProjectTemplate tvOS AppUITests";
+			productReference = EA21CA6A1D86D332004E2092 /* ProjectTemplate tvOS AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -357,6 +531,23 @@
 						DevelopmentTeam = 4C34FT6ABU;
 						ProvisioningStyle = Automatic;
 					};
+					EA21CA4E1D86D332004E2092 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4C34FT6ABU;
+						ProvisioningStyle = Automatic;
+					};
+					EA21CA5E1D86D332004E2092 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4C34FT6ABU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA21CA4E1D86D332004E2092;
+					};
+					EA21CA691D86D332004E2092 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4C34FT6ABU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA21CA4E1D86D332004E2092;
+					};
 				};
 			};
 			buildConfigurationList = EA21C9E61D86D1C3004E2092 /* Build configuration list for PBXProject "ProjectTemplate" */;
@@ -377,6 +568,9 @@
 				EA21CA091D86D1C3004E2092 /* ProjectTemplateUITests */,
 				EA21CA121D86D1C4004E2092 /* ProjectTemplate WatchKit App */,
 				EA21CA211D86D1C4004E2092 /* ProjectTemplate WatchKit Extension */,
+				EA21CA4E1D86D332004E2092 /* ProjectTemplate tvOS App */,
+				EA21CA5E1D86D332004E2092 /* ProjectTemplate tvOS AppTests */,
+				EA21CA691D86D332004E2092 /* ProjectTemplate tvOS AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -423,6 +617,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EA21CA4D1D86D332004E2092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA21CA591D86D332004E2092 /* Assets.xcassets in Resources */,
+				EA21CA571D86D332004E2092 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA21CA5D1D86D332004E2092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA21CA681D86D332004E2092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -462,6 +679,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EA21CA4B1D86D332004E2092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA21CA541D86D332004E2092 /* ViewController.swift in Sources */,
+				EA21CA521D86D332004E2092 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA21CA5B1D86D332004E2092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA21CA641D86D332004E2092 /* ProjectTemplate_tvOS_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA21CA661D86D332004E2092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA21CA6F1D86D332004E2092 /* ProjectTemplate_tvOS_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -484,6 +726,16 @@
 			isa = PBXTargetDependency;
 			target = EA21CA211D86D1C4004E2092 /* ProjectTemplate WatchKit Extension */;
 			targetProxy = EA21CA241D86D1C4004E2092 /* PBXContainerItemProxy */;
+		};
+		EA21CA611D86D332004E2092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA21CA4E1D86D332004E2092 /* ProjectTemplate tvOS App */;
+			targetProxy = EA21CA601D86D332004E2092 /* PBXContainerItemProxy */;
+		};
+		EA21CA6C1D86D332004E2092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA21CA4E1D86D332004E2092 /* ProjectTemplate tvOS App */;
+			targetProxy = EA21CA6B1D86D332004E2092 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -510,6 +762,14 @@
 				EA21CA191D86D1C4004E2092 /* Base */,
 			);
 			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		EA21CA551D86D332004E2092 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA21CA561D86D332004E2092 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -762,6 +1022,106 @@
 			};
 			name = Release;
 		};
+		EA21CA721D86D332004E2092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 4C34FT6ABU;
+				INFOPLIST_FILE = "ProjectTemplate tvOS App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tm.ProjectTemplate-tvOS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		EA21CA731D86D332004E2092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 4C34FT6ABU;
+				INFOPLIST_FILE = "ProjectTemplate tvOS App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tm.ProjectTemplate-tvOS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		EA21CA751D86D332004E2092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4C34FT6ABU;
+				INFOPLIST_FILE = "ProjectTemplate tvOS AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tm.ProjectTemplate-tvOS-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectTemplate tvOS App.app/ProjectTemplate tvOS App";
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		EA21CA761D86D332004E2092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4C34FT6ABU;
+				INFOPLIST_FILE = "ProjectTemplate tvOS AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tm.ProjectTemplate-tvOS-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectTemplate tvOS App.app/ProjectTemplate tvOS App";
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		EA21CA781D86D332004E2092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4C34FT6ABU;
+				INFOPLIST_FILE = "ProjectTemplate tvOS AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tm.ProjectTemplate-tvOS-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ProjectTemplate tvOS App";
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		EA21CA791D86D332004E2092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4C34FT6ABU;
+				INFOPLIST_FILE = "ProjectTemplate tvOS AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tm.ProjectTemplate-tvOS-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ProjectTemplate tvOS App";
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -811,6 +1171,30 @@
 			buildConfigurations = (
 				EA21CA451D86D1C4004E2092 /* Debug */,
 				EA21CA461D86D1C4004E2092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA21CA711D86D332004E2092 /* Build configuration list for PBXNativeTarget "ProjectTemplate tvOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA21CA721D86D332004E2092 /* Debug */,
+				EA21CA731D86D332004E2092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA21CA741D86D332004E2092 /* Build configuration list for PBXNativeTarget "ProjectTemplate tvOS AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA21CA751D86D332004E2092 /* Debug */,
+				EA21CA761D86D332004E2092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA21CA771D86D332004E2092 /* Build configuration list for PBXNativeTarget "ProjectTemplate tvOS AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA21CA781D86D332004E2092 /* Debug */,
+				EA21CA791D86D332004E2092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

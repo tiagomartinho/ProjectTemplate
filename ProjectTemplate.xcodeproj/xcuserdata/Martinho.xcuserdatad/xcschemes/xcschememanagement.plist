@@ -19,6 +19,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>ProjectTemplate tvOS App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>ProjectTemplate.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -43,6 +48,21 @@
 			<true/>
 		</dict>
 		<key>EA21CA121D86D1C4004E2092</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EA21CA4E1D86D332004E2092</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EA21CA5E1D86D332004E2092</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EA21CA691D86D332004E2092</key>
 		<dict>
 			<key>primary</key>
 			<true/>
